@@ -1,0 +1,120 @@
+/* login-fixed.css - File CSS đơn giản hơn và chắc chắn hơn */
+
+/* Background chung cho trang */
+.login-page {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+/* Fieldset tùy chỉnh */
+.custom-fieldset {
+  padding: 25px !important;
+  margin: 15px !important;
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 12px !important;
+  background-color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Legend tùy chỉnh */
+.custom-fieldset legend {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4776e6;
+  padding: 0 10px;
+  margin-bottom: 5px;
+  width: 100% !important; /* Chiếm toàn bộ chiều rộng */
+  text-align: center !important; /* Căn giữa text */
+  display: block !important;
+}
+
+/* Input fields */
+.custom-fieldset .ant-input,
+.custom-fieldset .ant-input-password {
+  border-radius: 6px;
+  height: 40px;
+  border: 1px solid #d9d9d9;
+}
+
+.custom-fieldset .ant-input:hover,
+.custom-fieldset .ant-input-password:hover {
+  border-color: #4ff1c3;
+}
+
+.custom-fieldset .ant-input:focus,
+.custom-fieldset .ant-input-affix-wrapper-focused {
+  border-color: #4ff1c3;
+  box-shadow: 0 0 0 2px #4ff1c3;
+}
+
+/* Form labels */
+.custom-fieldset .ant-form-item-label > label {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Login button */
+.custom-login-btn {
+  background: linear-gradient(to right, #417aec, #2040f8) !important;
+  border: none !important;
+  height: 40px !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-login-btn:hover {
+  opacity: 0.9 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 5px 10px rgba(71, 118, 230, 0.3) !important;
+}
+
+/* Link styles */
+.custom-link {
+  color: #4776e6 !important;
+  transition: all 0.3s ease !important;
+}
+
+.custom-link:hover {
+  color: #8e54e9 !important;
+}
+
+/* Divider */
+.custom-fieldset .ant-divider {
+  margin: 20px 0;
+}
+
+/* Register link text */
+.register-text {
+  text-align: center;
+  font-size: 15px;
+  color: #666;
+}
+
+/* Checkbox */
+.custom-fieldset .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.custom-fieldset .ant-checkbox-checked .ant-checkbox-inner {
+  border-color: #8e54e9;
+}
+
+.custom-fieldset .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #8e54e9;
+}
+
+/* Form item margin */
+.custom-fieldset .ant-form-item {
+  margin-bottom: 20px;
+}
+
+/* Button and link container */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
